@@ -288,18 +288,22 @@ font-size: 3rem;
     
   }
 
+  .logo-carousel {
+    height: 65vh;
+}
+
   .nuestros_aliados {
     height: 80vh;
 }
 
 .nuestros_aliados h1{
     padding-top: 60px;
-    font-size: 7.8rem;
-    line-height: 85px;
+    font-size: 5.8rem;
+    line-height: 65px;
 
 }
 .nuestros_aliados strong {
-    font-size: 7.8rem;
+    font-size: 5.8rem;
 }
 
 .section2_marcas_1{
@@ -308,16 +312,65 @@ font-size: 3rem;
     
 .section2_marcas_1 img{
     width: 100%;
-    max-width:270px;
+    max-width:300px;
 }
 
 .section-2_rectangle__text h1 {
-    font-size: 7.8rem;
+    font-size: 5.8rem;
     width: 93%;
-    line-height: 78px;
+    line-height: 68px;
     padding: 30px;
 }
+
+.grid_awards {
+    max-width: 94%;
+}
+
+.reconocimientos h1 {
+    font-size: 5.8rem;
+    margin-left: 110px;
+}
+
+.modelos_negocio h1 {
+    font-size: 5.8rem;
+    margin-left: 110px;
+}
+
+.modelos_negocio span{
+    margin-left: 110px;
+}
+
+.modelos_negocio{
+    flex-direction: row;
+    align-items: center;
+    gap: 50px
+}
+
+.circulo_2 {
     
+    width: 300px;
+    height: 300px;
+}
+
+.modelos_negocio p {
+    font-size: 2.3rem;
+    width: 100%;
+}
+.modelos_negocio span{
+    display:none;
+}
+
+.vive_laex_container iframe {
+    height: 75vh;
+}
+
+.vive_laex_container h1 {
+    font-size: 5.8rem;
+}
+
+.vive_laex_container strong {
+    font-size: 5.8rem;
+}
 
 
 
