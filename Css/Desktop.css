@@ -158,3 +158,171 @@
 .vive_laex_container iframe{
     height: 60vh;
 }
+
+
+@media (min-width: 1140px)
+{
+    .rectangle_1{
+        height: 100vh;
+    }
+    .Image-didactical__1{
+        min-width: 1216px;
+        min-height: 86%;
+        right: -306px;
+
+    }
+    .texts_1{
+        gap: 15px;
+        margin-top:120px;
+    }
+
+    .texts_1 h1{
+        font-size: 7.8rem;
+
+    }
+    .texts_1 p {
+        font-size: 3rem;
+    }
+
+    .button_1{
+        width: 307px;
+        font-size: 3rem;
+        margin-top: 26px;
+        padding: 15px;
+    }
+
+    .video-container { 
+        height: 100vh;
+    }
+    .video-container iframe{
+        height: 100vh;
+
+    }
+
+    /*INFORMACIÓN*/
+.information-1{
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10rem;
+
+}
+
+.information-1:nth-child(n) > p:first-of-type {
+font-size: 3rem;
+}
+
+
+.inf-c1{
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+}
+
+.inf-c1 img{
+   width: 100%;
+   height: auto;
+   margin: 0px;
+   max-width: 210px;
+
+}
+.inf-c1 p{
+    font-size: 2rem;
+    text-align: center;
+    width: 70%;
+}
+
+.inf-c2{
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+}
+
+.inf-c2 img{
+   width: 100%;
+   height: auto;
+   margin: 0px;
+   max-width: 210px;
+ 
+ }
+ .inf-c2 {
+
+    text-align: center;
+
+ }
+ .inf-c2 p{
+    font-size: 2rem;
+    text-align: center;
+    width: 210px;
+}
+
+ .inf-c3{
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+
+ }
+
+ .inf-c3 img{
+   width: 100%;
+   height: auto;
+   margin: 0px;
+   max-width: 210px;
+ 
+ }
+
+ .inf-c3 p{
+    font-size: 2rem;
+    text-align: center;
+    width: 70%;
+
+ }
+
+ .logo-carousel-inner {
+    display: flex;
+    width: calc(118px * 16);
+    animation: scroll 0s linear infinite;
+    -webkit-animation: scroll 0s linear infinite;
+    height: 300px;
+    padding-top: 100px ;
+    gap: 20px;
+    align-items: center;
+    margin-left: 20px;
+   
+
+    
+  }
+
+  .nuestros_aliados {
+    height: 80vh;
+}
+
+.nuestros_aliados h1{
+    padding-top: 60px;
+    font-size: 7.8rem;
+    line-height: 85px;
+
+}
+.nuestros_aliados strong {
+    font-size: 7.8rem;
+}
+
+.section2_marcas_1{
+    margin-top: 100px;
+}
+    
+.section2_marcas_1 img{
+    width: 100%;
+    max-width:270px;
+}
+
+.section-2_rectangle__text h1 {
+    font-size: 7.8rem;
+    width: 93%;
+    line-height: 78px;
+    padding: 30px;
+}
+    
+
+
+
+    
+
+    
+
+}
