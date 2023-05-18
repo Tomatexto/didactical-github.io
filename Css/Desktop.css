@@ -366,11 +366,16 @@ font-size: 3rem;
 
 .vive_laex_container h1 {
     font-size: 5.8rem;
+    margin-right: 3rem;
 }
 
 .vive_laex_container strong {
     font-size: 5.8rem;
 }
+
+.vive_laex_container iframe {
+    
+    margin: 80px auto;
 
 
 
