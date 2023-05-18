@@ -59,3 +59,102 @@
 
 }
 
+/*INFORMACIÓN*/
+.information-1{
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10rem;
+
+}
+
+
+.inf-c1{
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+}
+
+.inf-c1 img{
+   width: 100%;
+   height: auto;
+   margin: 0px;
+   max-width: 170px;
+
+}
+.inf-c1 p{
+    font-size: 1.8rem;
+    text-align: center;
+    width: 70%;
+}
+
+.inf-c2{
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+}
+
+.inf-c2 img{
+   width: 100%;
+   height: auto;
+   margin: 0px;
+   max-width: 170px;
+ 
+ }
+ .inf-c2 {
+
+    text-align: center;
+
+ }
+ .inf-c2 p{
+    font-size: 1.8rem;
+    text-align: center;
+    width: 70%;
+}
+
+ .inf-c3{
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+
+ }
+
+ .inf-c3 img{
+   width: 100%;
+   height: auto;
+   margin: 0px;
+   max-width: 170px;
+ 
+ }
+
+ .inf-c3 p{
+    font-size: 1.8rem;
+    text-align: center;
+    width: 70%;
+
+ }
+
+
+/*CAROUSEL*/
+
+.logo-carousel {
+    height: 52vh;
+}
+
+.logo-carousel-inner{
+    margin: 0;
+}
+
+
+.section2_marcas_1{
+    justify-items: center;
+
+}
+
+.nuestros_aliados h1 {
+    padding-top: 50px;
+}
+
+.grid_awards {
+    max-width: 841px;
+}
+
+
+.vive_laex_container iframe{
+    height: 60vh;
+}
