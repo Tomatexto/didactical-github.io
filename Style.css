@@ -458,6 +458,7 @@ transform-origin:right;
     height: 100%;
     display: flex;
     justify-content: center;
+    min-height: 245px;
    
 
 }
@@ -465,11 +466,10 @@ transform-origin:right;
 
 .video-container iframe{
     width: 100%;
-    height: 30vh;
+    height: 27vh;
     border-radius: 10px;
-    left: calc(50% - 235px);
-    display: block;
     min-width: 320px;
+
    
 }
 
@@ -478,7 +478,6 @@ transform-origin:right;
     height: 350px;
     background-color: #68AD00;
     border-radius: 100%;
-    tex
 }
 
 /*Vídeo*/
@@ -506,7 +505,7 @@ transform-origin:right;
 .information-1:nth-child(2){
     margin-top: 50px;
     margin-bottom: 20px;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 300;
     font-family: 'Lexend', sans-serif;
     width: 90%;
@@ -515,7 +514,7 @@ transform-origin:right;
 
 .information-1 p{
     margin-top: 15px;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 300;
     font-family: 'Lexend', sans-serif;
     text-align: center;
@@ -529,7 +528,7 @@ transform-origin:right;
     flex-direction: column;
     gap: 0.5rem;
     margin-top: 20px;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 300;
     font-family: 'Lexend', sans-serif;
     
@@ -845,10 +844,10 @@ transform-origin:right;
 
 .negocios_1{
   display: flex;
-  padding-top: 60px;
+  margin-top: 60px;
   padding: 10px;
   flex-wrap: wrap;
-  gap:30px;
+  gap:40px;
   justify-content: center;
 }
 
@@ -856,7 +855,7 @@ transform-origin:right;
   font-family: 'Lexend', sans-serif;
   color: var(--grey);
   justify-self: end;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   padding: 0px 20px 0px 20px;
 
 }
@@ -870,8 +869,8 @@ transform-origin:right;
 
 }
 .negocios_2{
-  padding-top: 100px;
-  gap: 30px;
+  margin-top: 60px;
+  gap: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -881,7 +880,7 @@ transform-origin:right;
   font-family: 'Lexend', sans-serif;
   color: var(--grey);
   justify-self: end;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   padding: 0px 20px 0px 30px;
 
 }

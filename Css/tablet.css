@@ -101,12 +101,9 @@
 
 
 .video-container iframe{
-    width: 768px;
-    height: 386px;
+    width: 100%;
+    height: 49vh;
     border-radius:0px;
-    position: relative;
-    top: calc(100% - 10px);
-    left: calc(50% - 384px);
     display: block;
     min-width:320px;
 
@@ -275,7 +272,7 @@
 }
 
 .logo-carousel{
-    height: 36vh;
+    height: 48vh;
 }
 
 .section2_marcas_1{
